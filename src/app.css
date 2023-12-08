@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	body,
+	input,
+	select,
+	textarea,
+	.normal-color {
+		@apply text-gray-100;
+	}
+
+	body,
+	input[type='text'],
+	input[type='number'],
+	input[type='date'],
+	select,
+	textarea,
+	.opaque {
+		@apply bg-gray-800;
+	}
+
+	input[type='text'],
+	input[type='number'],
+	input[type='date'],
+	select,
+	textarea {
+		@apply rounded border px-0.5 border-gray-500;
+	}
+
+	a {
+		@apply underline text-blue-300;
+	}
+
+	summary {
+		@apply cursor-pointer select-none underline;
+	}
+
+	h1 {
+		@apply text-3xl;
+	}
+
+	h2 {
+		@apply text-2xl;
+	}
+
+	h3 {
+		@apply text-xl;
+	}
+
+	h4 {
+		@apply text-lg;
+	}
+
+	p + p {
+		@apply mt-0.5;
+	}
+
+	.odd-rows {
+		@apply odd:bg-gray-700;
+	}
+
+	.even-rows {
+		@apply even:bg-gray-700;
+	}
+
+	.odd-bg {
+		@apply bg-gray-700;
+	}
+
+	button:disabled {
+		@apply cursor-not-allowed opacity-70;
+	}
+
+	button,
+	.button-default {
+		@apply rounded border px-2 py-0 border-gray-300 cannot-hover:py-2;
+	}
+
+	.border-default {
+		@apply border border-gray-300;
+	}
+
+	.border-subtle {
+		@apply border border-gray-600;
+	}
+
+	.markdown td,
+	.markdown th {
+		@apply border-default px-2;
+	}
+
+	.markdown tbody tr {
+		@apply odd-rows;
+	}
+
+	.markdown hr {
+		@apply my-1;
+	}
+
+	.markdown ul {
+		@apply list-disc;
+	}
+
+	.markdown ol {
+		@apply list-decimal;
+	}
+
+	.markdown li {
+		@apply ml-4;
+	}
+}
