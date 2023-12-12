@@ -51,5 +51,7 @@
 			00:00 UTC+8 (midnight) on the 1st of January 2024 corresponds to the same time in both the
 			jalendar and the Gregorian calendar.
 		</p>
+		<h2>Jomenclature</h2>
+		<p>Coming soon</p>
 	</div>
 </div>
