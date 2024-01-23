@@ -3,7 +3,6 @@
 	import { unixMsToJalendarMs, unixMsToJate, formatJate, formatJime } from '$lib';
 
 	let timestamp = Date.now();
-	let jelandarMs = unixMsToJalendarMs(timestamp);
 	$: jateJime = unixMsToJate(timestamp);
 
 	onMount(() => {
