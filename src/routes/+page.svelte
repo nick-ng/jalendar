@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import { unixMsToJalendarMs, unixMsToJate, formatJate, formatJime } from '$lib';
+	import { unixMsToJate, formatJate, formatJime } from '$lib';
 
 	let timestamp = Date.now();
 	$: jateJime = unixMsToJate(timestamp);
