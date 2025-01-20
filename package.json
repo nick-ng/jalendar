@@ -15,7 +15,7 @@
 	"devDependencies": {
 		"@sveltejs/adapter-static": "^3.0.8",
 		"@sveltejs/kit": "^2.15.2",
-		"@sveltejs/vite-plugin-svelte": "^4.0.3",
+		"@sveltejs/vite-plugin-svelte": "^4.0.4",
 		"@typescript-eslint/eslint-plugin": "^8.20.0",
 		"eslint": "^9.18.0",
 		"eslint-config-prettier": "^9.0.0",
